@@ -13,7 +13,7 @@ while 1:
     raw_input("Are you done yet??")
     currentTime = time.time()
     dt = str(currentTime - lastTime)
-    target.write("t:" + str(time.time()) + "," + str(time.asctime( time.localtime(time.time()) )) + "," + dt + "\n")
+    target.write(str(time.time()) + "," + str(time.asctime( time.localtime(time.time()) )) + "," + dt + "\n")
 
     print "Took you long enough..." + dt
 
