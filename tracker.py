@@ -3,7 +3,7 @@ import time;
 print "Who are you?"
 username = raw_input("GIVE ME YOUR NAME: ")
 
-filename = username + ".txt"
+filename = username.lower() + ".txt"
 
 print "Opening the file..."
 target = open(filename, 'a')
