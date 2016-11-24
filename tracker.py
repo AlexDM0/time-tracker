@@ -10,7 +10,7 @@ target = open(filename, 'a')
 
 lastTime = time.time()
 while 1:
-    raw_input("Are you done yet?? ")
+    raw_input("Are you done yet??")
     currentTime = time.time()
     dt = str(currentTime - lastTime)
     target.write("t:" + str(time.time()) + "," + str(time.asctime( time.localtime(time.time()) )) + "," + dt + "\n")
