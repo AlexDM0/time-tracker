@@ -1,7 +1,7 @@
 import time;
 
 print "Who are you?"
-username = raw_input("line 1: ")
+username = raw_input("GIVE ME YOUR NAME: ")
 
 filename = username + ".txt"
 
